@@ -1,0 +1,15 @@
+[
+  {
+    "name": "atom_wise_test_service",
+    "image": "578526436642.dkr.ecr.us-east-1.amazonaws.com/atom_wise_test_repo",
+    "cpu": 1,
+    "memory": 512,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 80,
+        "hostPort": 80
+      }
+    ]
+  }
+]
